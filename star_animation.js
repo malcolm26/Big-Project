@@ -1,4 +1,4 @@
-function animateStar(var x, var y){
+function animateStar(x, y){
 	var canvas = document.querySelector("canvas"); 
   
     canvas.width = window.innerWidth; 
@@ -54,7 +54,3 @@ function animateStar(var x, var y){
 }
 
 
-document.getElementById("shape").onclick = function(){
-	myMove();
-	
-}
